@@ -53,6 +53,18 @@ class EnviarMensagemController extends Controller
         }else{            
             $target = "_blank";
         }
-        return view('content', ["target" => $target]);
+
+        $servicos = [];
+
+        $servicos[0]["img"] = asset('images/Portfolio02.png');
+        $servicos[0]["thumb_title"] = 'Calha Moldura Tipo 01';
+        $servicos[0]["thumb_caption"] = 'Calhas';
+        $servicos[0]["text_title_button"] = 'Conversar via Whatsapp';
+        $servicos[0]["text_link"] = route("welcome");
+        $servicos[0]["text_description"] = 'Calha moldura, eficaz na quebra de força na queda de agua, evitando que respingue agua para os lados.';
+
+
+
+        return view('content', ["target" => $target, "servicos" => $servicos]);
     }
 }

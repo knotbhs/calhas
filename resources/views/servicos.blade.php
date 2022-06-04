@@ -1,53 +1,42 @@
-<div id="servicos" class="block">
+<!-- Service section start -->
+<div class="section primary-section" id="service">
     <div class="container">
-        <h2 class="title text-center">Nossos Serviços</h2>
-        <h4 class="subtitle text-center mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima quos provident dolores reprehenderit blanditiis mollitia quia qui recusandae hic atque? Id blanditiis exercitationem molestias cumque ipsam repellat voluptatum. Excepturi, esse?</h4>
-
-        <div class="row">
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <a href="#" class="destaque">
-                    <div class="img-container mb-3">
-                        <img src="{{ asset("imagens/logo.png") }}" alt="" class="img-fluid">
+        <!-- Start title section -->
+        <div class="title">
+            <h1>Prestação de Serviços</h1>
+            <!-- Section's title goes here -->
+            <p>Profissionais capacitados e experientes para executar todo tipo de solução</p>
+            <!--Simple description for section goes here. -->
+        </div>
+        <div class="row-fluid">
+            <div class="span4">
+                <div class="centered service">
+                    <div class="circle-border zoom-in">
+                        <img class="img-circle" src="images/Service1.png" alt="service 1">
                     </div>
-                    <h5 class="text-uppercase">Easdsa asd</h5>
-                    <p class="mb-0">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ipsum, beatae aperiam nihil eos et consequatur! Quaerat.
-                    </p>
-                </a>
+                    <h3>Preço Justo</h3>
+                    <p>Preço justo e garantia sob o serviço prestado</p>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <a href="#" class="destaque">
-                    <div class="img-container mb-3">
-                        <img src="{{ asset("imagens/logo.png") }}" alt="" class="img-fluid">
+            <div class="span4">
+                <div class="centered service">
+                    <div class="circle-border zoom-in">
+                        <img class="img-circle" src="images/Service2.png" alt="service 2" />
                     </div>
-                    <h5 class="text-uppercase">Easdsa asd</h5>
-                    <p class="mb-0">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ipsum, beatae aperiam nihil eos et consequatur! Quaerat.
-                    </p>
-                </a>
+                    <h3>Qualidade</h3>
+                    <p>Total atenção na execução, prezando a qualidade e o acabamento</p>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <a href="#" class="destaque">
-                    <div class="img-container mb-3">
-                        <img src="{{ asset("imagens/logo.png") }}" alt="" class="img-fluid">
+            <div class="span4">
+                <div class="centered service">
+                    <div class="circle-border zoom-in">
+                        <img class="img-circle" src="images/Service3.png" alt="service 3">
                     </div>
-                    <h5 class="text-uppercase">Easdsa asd</h5>
-                    <p class="mb-0">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ipsum, beatae aperiam nihil eos et consequatur! Quaerat.
-                    </p>
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <a href="#" class="destaque">
-                    <div class="img-container mb-3">
-                        <img src="{{ asset("imagens/logo.png") }}" alt="" class="img-fluid">
-                    </div>
-                    <h5 class="text-uppercase">Easdsa asd</h5>
-                    <p class="mb-0">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ipsum, beatae aperiam nihil eos et consequatur! Quaerat.
-                    </p>
-                </a>
+                    <h3>Rápido Atendimento</h3>
+                    <p>Profissionais capacitados e experientes na execução do serviço</p>
+                </div>
             </div>
         </div>
     </div>
 </div>
+<!-- Service section end -->

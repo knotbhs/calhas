@@ -11,6 +11,10 @@
     box-shadow: 0 0 30px 0 rgba(0,0,0,.2);
     z-index: 9999;
 }
+.navbar-scarpari
+{
+    background-color: #858688;
+}
 
 #header .navbar-collapse {
     width: auto;
@@ -31,8 +35,8 @@
 }
 
 #slider {
-    background: url('imagens/logo.png') no-repeat center bottom;
-    background-size: contain;
+    background: url('imagens/Calhas+estrutura+metalica+rufos+condutores+calhas+scarpari4.png') no-repeat center;
+    background-size: cover;
 }
 
 #slider h1 {
@@ -43,6 +47,11 @@
 #slider h4 {
     text-transform: uppercase;
     font-size: 18px;
+}
+
+#slider img {
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.15);
 }
 
 #servicos a.destaque {
